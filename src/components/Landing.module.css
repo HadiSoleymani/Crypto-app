@@ -1,0 +1,30 @@
+.cotainer{
+    background-color: rgb(27, 27, 27);
+    min-height: 140vh;
+}
+
+.coinContainer{
+    margin: 50px auto;
+    border: 1px solid rgb(225, 224, 224);
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #0e0e0e;
+}
+
+.input{
+    width: 300px;
+    border: 1px solid silver;
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+    background-color: #f6f6f6;
+    transition: all 0.2s ease;
+}
+
+.input:focus{
+    outline: none;
+    border-color: white;
+    background: white;
+    box-shadow: rgba(74, 74, 74, 0.24)0px 3px 8px;
+}
