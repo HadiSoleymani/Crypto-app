@@ -7,7 +7,7 @@ const Loader = () => {
             <img style={{marginTop: "50px"}}src={spinner} alt="Loader" />
             <h1 style={{color: "white"}}>Loading ...</h1>
         </div>
-    );saa
+    );
 };
 
 export default Loader;
